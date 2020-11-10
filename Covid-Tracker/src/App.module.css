@@ -1,0 +1,26 @@
+body{
+    background: rgb(174,238,234);
+background: linear-gradient(90deg, rgba(174,238,234,1) 20%, rgba(152,233,148,1) 57%);
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image{
+    width:370px;
+    margin-top:50px;
+}
+
+@media (max-width: 770px){
+    .container{
+        margin:0 10%;
+    }
+
+    .image{
+        width:100%;
+    }
+}
